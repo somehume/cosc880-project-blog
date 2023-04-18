@@ -8,12 +8,11 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/cosc880-project-blog",
   siteMetadata: {
     title: `880 Project Blog`,
     author: {
       name: `Donald Brown`,
-      summary: `who lives and works in Donald Brown building (sometimes) useful things.`,
+      summary: `who lives and works in Baltimore, building (sometimes) useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
