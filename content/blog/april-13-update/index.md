@@ -10,7 +10,6 @@ The game now features a minimap. I spent a bit of time working through several t
 
 ![Minimap](./medical-center-with-minimap.png)
 
-
 Using Unity's official tutorials, I worked through building and (local) publishing the game for iOS. I needed to sign up for an Apple Developer account, then follow a few additional steps. I'm current awaiting the approval of my Apple Developer account.
 
 TODO: 
