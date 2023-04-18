@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Apr 2023 08:24:18 GMT</lastBuildDate><item><title><![CDATA[April 13]]></title><description><![CDATA[At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status. The game now features a minimap. I…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</guid><pubDate>Thu, 13 Apr 2023 07:34:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Apr 2023 09:11:33 GMT</lastBuildDate><item><title><![CDATA[April 13]]></title><description><![CDATA[At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status. The game now features a minimap. I…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</guid><pubDate>Thu, 13 Apr 2023 07:34:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The game now features a minimap. I spent a bit of time working through several tutorials before finding one that seemed like a good fit.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -43,4 +43,116 @@
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Project Overview]]></title><description><![CDATA[Advisor: Dr. Ziying Tang This project is in part an exploration of modern game development tools and techniques, and part a prototype for a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/project-overview/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/project-overview/</guid><pubDate>Thu, 13 Apr 2023 07:33:42 GMT</pubDate><content:encoded>&lt;p&gt;Advisor: Dr. Ziying Tang&lt;/p&gt;
 &lt;p&gt;This project is in part an exploration of modern game development tools and techniques, and part a prototype for a game that aims to introduce autistic children to medical procedures prior to experiencing the procedure.&lt;/p&gt;
 &lt;p&gt;This blog is a bit of a late start at centrally documenting this project. My prior game development experience was as an undergraduate student in University of Baltimore&apos;s Simulation and Digital Entertainment (now Simulation and Game Design) program. The majority of my game dev experience was using Unreal 2.5, Macromedia Flash and modding Neverwinter Nights. This project is built using Unity.&lt;/p&gt;
-&lt;p&gt;This site was built using a Gatsby blog &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&quot;&gt;template&lt;/a&gt; which supports markdown files to &quot;feed&quot; the blog.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;This site was built using a Gatsby blog &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&quot;&gt;template&lt;/a&gt; which supports markdown files to &quot;feed&quot; the blog.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Early Progress]]></title><description><![CDATA[This post is dated as April 1, 2023 merely to make it earlier than actual updates. I am using Unity 2021.3.20f1, as it is the most recent…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/early-progress/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/early-progress/</guid><pubDate>Sat, 01 Apr 2023 07:33:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;This post is dated as April 1, 2023 merely to make it earlier than actual updates.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I am using Unity 2021.3.20f1, as it is the most recent LTS build. I prefer LTS builds of products when creating content with a purpose as LTS builds seem to offer some stability and fewer changes.&lt;/p&gt;
+&lt;h2&gt;Level Design&lt;/h2&gt;
+&lt;p&gt;Starting out, one of the first efforts was to learn to create a maze in Unity to help with designing the level. In an early build I worked through a tutorial for generating a random maze, which looked nice. While the maze had a nice appearance, it would make the objectives of the game overly complicated as the level is randomly generated at the start of each run of the game.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9515d267a05d5d212e07b0ab65340b09/e4611/random-maze-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.67088607594937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXklEQVR42h3Qa09SAQDG8fM1zUw0FDFdKt5AAa/cBUQRg8M5HBBQLnJHyAtzYjp11sq5WtbMza3NNld+gH+TV8+LZ3v22yP0ql7Rr+5C+1qFRtWOVt3FyKiekbFpRsamGNLpW6kbn2Zcb2LCYMZsnmWovxd1RxtatQptt4qhfjVvBzQImq4OtN0daLteMjysw2hdZXEljm0tyVIwg1vMYPUnWFUKOAJJ/JEcYqKE712UObOJXlU7Pa/aGND08kbTg6DpbGOwv48Jkw2TK8zCcpRZVxiTI4SSrrEspjBY1lnwRphxhvCJmwRjOVakDJGtMpFoHOOEjucdTecLBN2EEZNTZMYTw7ISx2gP4QmlCcbLeEMp1mNFUqUGDn8C51qipTs5/4jVF231lf0mucouFpsL3WAfwuJKAncwhbRZIVNuIG9VKO8eU9o7xeyS8YWzBGJF3KFtlNQOq1Kai09fODg6JZapE06WCChZ7IEUhUodwe6PM++N4hXT+OVsSzHnlnEEtrCtpfArRbI7TRL5A3xyAXGzTnW/2RraruyxmX/P6fkFl5+vaTTPEEzO579EzEsKBluYSauEW8wjJutMOSIYnRIzS5GW1uiUOTy5pNb4QL52yJpSIBgvkS7U2T86I5auIsx5Y8y7ZfSWINXGOT/u7hGTVW7vH9jIH2JaTjPrSzFulRmzSIxbJEKJKtu1YzayNaZdUQx2mVlPDINdQvj98IdsudFSXH//ydPTI87gNlffblAyezz+/cfV1xtGFyX0jg3CW7v8urslW2kwaVPQO6L4pBzVvSM84SL/AZTN9hYnjlsVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Random Maze Generator 1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9515d267a05d5d212e07b0ab65340b09/f058b/random-maze-1.png&quot;
+        srcset=&quot;/static/9515d267a05d5d212e07b0ab65340b09/c26ae/random-maze-1.png 158w,
+/static/9515d267a05d5d212e07b0ab65340b09/6bdcf/random-maze-1.png 315w,
+/static/9515d267a05d5d212e07b0ab65340b09/f058b/random-maze-1.png 630w,
+/static/9515d267a05d5d212e07b0ab65340b09/40601/random-maze-1.png 945w,
+/static/9515d267a05d5d212e07b0ab65340b09/78612/random-maze-1.png 1260w,
+/static/9515d267a05d5d212e07b0ab65340b09/e4611/random-maze-1.png 1298w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Random Maze Generator 1&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/928af017af30834cad0a40d1ba7eaac4/e4611/random-maze-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.67088607594937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYElEQVR42iWQV09aAQCF77/sUuuggtbWgXtbq0BQVJb0ArIvGxmCKM6CC0dp46p1tLXzpW1M378m9O2c5HwnJ0eor66iUVZDQ1018upHKOpqaFN209E9SFtHH63tvbR3DaDs/K/bOvvp7x/iuUKGrPJBmWuoraalUUZzkxxBXlNJQ20lipoKWluUjOlEVEYfozMeVEYJjdmPyZ1CbfajNvkwzEXRiUFsrgAjQwNltv7xQ57J5TyVP0Gor7pPU4OCrkENg9o5VAYvE7MS4zNu9PYIU2IIKbGGO5LFE05jsIcYnrQzJQbK3mJ10NHajKziXrlY6Ood5oVuDq0lyLQ1zOiUC63Zx9i0A5XBg8kZZ9ISQGOSMDtjiN4Es6555vxJdGIAm5TEHUzisNtoa1IgaGaD5bDeFkatd5fXqY0SwxMO1CY/Rkccq5Qhtphnq1hC9KWxeNMUdvZILedxhRfZ2D4glFrB6Y8hJHM7WKUFOkfNGJ0JdGKEQvEYZ2SV5Mo+4fRrCgcnnF99wh3OklrZYTVfxBPJli+JZ9aIptfxRpcwOuMI09YQk5YgsWyB7Po2/vgKfRo748YgxbfvkeJrLOcPKZ1d4U9uMmYIoDKH2D06xhXJEV3I4QgtkchuYvEsIJg8GZLLW5x/uMJoD6McFelSOxkxREmt7lE6u0Y9GyWSyZPdPERKbXP77TunZ6fMZ7fo0fpY2ixyenGNN5ZDSOT22Njep3v8FS+nPfRoXIzog9z9vSOcKfDrz29235zTPRHi64+fnJxfcHlzw/5Ridsvn7n8eIs/VaBQfEef1s0/Fk8CAuzZEWUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Random Maze Generator 2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/928af017af30834cad0a40d1ba7eaac4/f058b/random-maze-2.png&quot;
+        srcset=&quot;/static/928af017af30834cad0a40d1ba7eaac4/c26ae/random-maze-2.png 158w,
+/static/928af017af30834cad0a40d1ba7eaac4/6bdcf/random-maze-2.png 315w,
+/static/928af017af30834cad0a40d1ba7eaac4/f058b/random-maze-2.png 630w,
+/static/928af017af30834cad0a40d1ba7eaac4/40601/random-maze-2.png 945w,
+/static/928af017af30834cad0a40d1ba7eaac4/78612/random-maze-2.png 1260w,
+/static/928af017af30834cad0a40d1ba7eaac4/e4611/random-maze-2.png 1298w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Random Maze Generator 2&lt;/p&gt;
+&lt;p&gt;I then took the shape creation methods that I learned while working on the maze to construct a level. While this technically worked, managing the sizes and alignment of the shapes (which would be the walls, floors, etc.) was difficult. I wanted to find a way to set precise sizes. Around this time I also put some effort into learning to work with doors, but decided to come back to it after I had the core level structure in place.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/18266332bb3d8e4bd3853b93f75b6ad3/78274/grid-alignment.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 87.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC80lEQVR42rWSW1MiZxCG+UW5zq/IxSZRdxAEQWQA5TwwwAAznEbO4MAAogIuru7WrpuDOVTlvz0pvk1cNzGxcpGLt6q/ru6n3q+7HU5/FNU8Q6naZKoj2vaaxe09jeEKpTJCMU5RqmMytQnZ+gS1MSVtWJija9rdAZWiSkIOosQlsnkZh+SPEjmKoRZ0Jqv3zK7uaI1fUR8sMIcLSnqNjKqhFgyUfIVkvkG80BR1Ja1As65z4NpCjWdQMxkcLmkLvaQxvbyhOXpFSh+RMkbkzTPyjSmaOaHanmKYQ4x6l7JRp93pMp0vySSOadbK+FxbhOQQst+DI3QU5fruN87W31PtnlPtj1GKJ8TVOvFCh5RuoVQnKLUZefOcdGXM4u2vFIu6gOXSMfyuHcJ+FyG/G0elZaNULHKNKW37gpLpodaQaJ000cs6WkEjkVJJZnWimRpq1eL13S+EAn7Ggzax0AGBPYmgd5dDjxOHvXxPb/qacmtOrmHx1cswX3wZo9zpYQ6vaA3nDEdn9Lo9ylqexWJB/3RKNOhjPrHYd36LvO8WwI0cRuecjr1msnzH8vaewWzOi+0e2YpOSh9zXOiS1C2x3cZwyXB+SyQcoVbMMmibeKVvkH0ugl6nkCNd7pM2RuJssnVbnEtvsubi+jsub34U2zyxVmimTUzrE8s1ce98zcVsjJZJ4BMOdz8BQwdejo9jYkaK3idlWGLwm2UUT6Y0rRWz1R2rN/es3v7MwJqgxkO8WV8S9rs59EgEHwODHonDvR0h2bfHUSRCXNFQyh2xrM0JJctD0sYpRmdOx75idfOBDz/8RDYZ5cC987lDEWwSIvkJHtx3EZFl4qkcSrFFtjpC+cN5vDQQ72hYJrCp3Wx40/sA9DrF42O8+/CFB7jXSTgYIJpQSBUaqHWbRNYg4N5+ZOaxw3/Tn3DPSw73tsXMwocBQgGfyP21/nngZ/roRsCfgD0B3H0US8/D/9bznx0+r/8R6HmiwCPxzyN5uud3dNlO+9KFc0oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Grid Alignment&quot;
+        title=&quot;&quot;
+        src=&quot;/static/18266332bb3d8e4bd3853b93f75b6ad3/f058b/grid-alignment.png&quot;
+        srcset=&quot;/static/18266332bb3d8e4bd3853b93f75b6ad3/c26ae/grid-alignment.png 158w,
+/static/18266332bb3d8e4bd3853b93f75b6ad3/6bdcf/grid-alignment.png 315w,
+/static/18266332bb3d8e4bd3853b93f75b6ad3/f058b/grid-alignment.png 630w,
+/static/18266332bb3d8e4bd3853b93f75b6ad3/78274/grid-alignment.png 644w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Grid Alignment&lt;/p&gt;
+&lt;p&gt;Searching for methods of precisely controlling the sizes of my shapes, I encountered mention of the ProBuilder feature in many of the forums that I visited. Most of the post were older, and associated with early versions of Unity. THe procedures for getting ProBuilder added were no longer accurate. After some time I learned the procedure for getting ProBuilder added to my Unity (2021.3.20f1) environment.&lt;/p&gt;
+&lt;p&gt;Two of the resources that helped me to get started were Unity&apos;s learn.unity.com site and a tutorial by Brackeys, &lt;a href=&quot;https://www.youtube.com/watch?v=YtzIXCKr8Wo&quot;&gt;MAKING YOUR FIRST LEVEL in Unity with ProBuilder!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The level is loosely based on the layout of Lutherville Physicians, which is a semi-symmetrical medical hub for Mercy Hospital in Baltimore. Due to the semi-symmetrical layout, I built half of the level and mirrored the other half once the main structure was completed.&lt;/p&gt;
+&lt;h2&gt;Player Controller&lt;/h2&gt;
+&lt;p&gt;The next big hurdle was to add a player.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The sleep has come for me; I&apos;ll add more info soon.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Assets&lt;/h2&gt;
+&lt;p&gt;I knew of the Unity Asset Store due to my work as a lab manager who supports University of Baltimore&apos;s game design program. Aside from needing to preload a package on all systems some years ago, this was my first interaction with the asset store. I was suprised by the range of content that was freely available, as well as the cost of premium content.&lt;/p&gt;</content:encoded></item></channel></rss>
