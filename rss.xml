@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Apr 2023 07:18:04 GMT</lastBuildDate><item><title><![CDATA[April 13]]></title><description><![CDATA[At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status. The game now features a minimap. I…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</guid><pubDate>Thu, 13 Apr 2023 07:34:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Apr 2023 08:06:00 GMT</lastBuildDate><item><title><![CDATA[April 13]]></title><description><![CDATA[At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status. The game now features a minimap. I…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/april-13-update/</guid><pubDate>Thu, 13 Apr 2023 07:34:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The game now features a minimap. I spent a bit of time working through several tutorials before finding one that seemed like a good fit.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -6,7 +6,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/7970d/medical-center-with-minimap.png&quot;
+    href=&quot;/static/5cfb4a0ed75834e2dfdbf727b2e6d730/7970d/medical-center-with-minimap.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -19,13 +19,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Minimap&quot;
         title=&quot;&quot;
-        src=&quot;/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/f058b/medical-center-with-minimap.png&quot;
-        srcset=&quot;/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/c26ae/medical-center-with-minimap.png 158w,
-/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/6bdcf/medical-center-with-minimap.png 315w,
-/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/f058b/medical-center-with-minimap.png 630w,
-/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/40601/medical-center-with-minimap.png 945w,
-/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/78612/medical-center-with-minimap.png 1260w,
-/cosc880-project-blog/static/5cfb4a0ed75834e2dfdbf727b2e6d730/7970d/medical-center-with-minimap.png 1908w&quot;
+        src=&quot;/static/5cfb4a0ed75834e2dfdbf727b2e6d730/f058b/medical-center-with-minimap.png&quot;
+        srcset=&quot;/static/5cfb4a0ed75834e2dfdbf727b2e6d730/c26ae/medical-center-with-minimap.png 158w,
+/static/5cfb4a0ed75834e2dfdbf727b2e6d730/6bdcf/medical-center-with-minimap.png 315w,
+/static/5cfb4a0ed75834e2dfdbf727b2e6d730/f058b/medical-center-with-minimap.png 630w,
+/static/5cfb4a0ed75834e2dfdbf727b2e6d730/40601/medical-center-with-minimap.png 945w,
+/static/5cfb4a0ed75834e2dfdbf727b2e6d730/78612/medical-center-with-minimap.png 1260w,
+/static/5cfb4a0ed75834e2dfdbf727b2e6d730/7970d/medical-center-with-minimap.png 1908w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -159,7 +159,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -172,13 +172,13 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
-        srcset=&quot;/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
-/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
-/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
-/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
-/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
-/cosc880-project-blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
+/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
+/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
