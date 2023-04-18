@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/cosc880-project-blog",
   siteMetadata: {
     title: `880 Project Blog`,
     author: {
