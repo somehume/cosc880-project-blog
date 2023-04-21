@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A blog to document the progress of Donald Brown's COSC880 Project.]]></description><link>https://880blog.donarudo.dev</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Apr 2023 09:19:39 GMT</lastBuildDate><item><title><![CDATA[April 13]]></title><description><![CDATA[At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status. The game now features a minimap. I…]]></description><link>https://880blog.donarudo.dev/april-13-update/</link><guid isPermaLink="false">https://880blog.donarudo.dev/april-13-update/</guid><pubDate>Thu, 13 Apr 2023 07:34:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A blog to document the progress of Donald Brown's COSC880 Project.]]></description><link>https://880blog.donarudo.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 21 Apr 2023 00:59:51 GMT</lastBuildDate><item><title><![CDATA[April 20]]></title><description><![CDATA[I began with continuing Unity's tutorial for publishing for iOS, as I previously got stuck on Step 2, which teaches the process to set up…]]></description><link>https://880blog.donarudo.dev/april-20-update/</link><guid isPermaLink="false">https://880blog.donarudo.dev/april-20-update/</guid><pubDate>Thu, 20 Apr 2023 23:33:42 GMT</pubDate><content:encoded>&lt;p&gt;I began with continuing Unity&apos;s tutorial for publishing for iOS, as I previously got stuck on Step 2, which teaches the process to set up certificates in the Apple Developer Portal. I won&apos;t go into much detail about this, as the info is available on the linked pages.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://learn.unity.com/tutorial/publishing-for-ios#&quot;&gt;Unity Learn: Publishing for iOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/help/account/create-certificates/create-a-certificate-signing-request&quot;&gt;Apple Developer: Create a Certificate Signing Request&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Apple Developer Requirements&lt;/h3&gt;
+&lt;p&gt;If you follow the above two links, you&apos;ll see that a CSR needs to be generated, to download the certificate from Apple. Fortunately I&apos;m a Mac user. I&apos;m not sure if this would be possible from Windows.&lt;/p&gt;
+&lt;p&gt;After generating the certificate, I had to generate an App ID and an App Store Provisioning Profile.&lt;/p&gt;
+&lt;h3&gt;Unity Publishing Settings&lt;/h3&gt;
+&lt;p&gt;There are also some changes to the Build Settings in the Unity Editor that need to match the information given to Apple during the process of generating the certificate, App ID and Provisioning Profile.&lt;/p&gt;
+&lt;p&gt;Following the instructions on Unity Learn, I ran into an issue with the Target SDK needing to be set to Device SDK due to my not currently having an iOS device that I can use for development. I hope to acquire one soon. I also forgot where this was set, so I spent an embarrising amount of time in Xcode attempting to change back to the simulator.&lt;/p&gt;
+&lt;h3&gt;TODO&lt;/h3&gt;
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; an in-game menu system to click and navigate throughout the game world, rather than using typical controls.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; Apple Developer account configuration&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; load content onto iPad/iPhone&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; add music and sound effects&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; a startup menu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Latest WebGL Build: &lt;a href=&quot;https://play.unity.com/mg/other/webgl-6ej&quot;&gt;https://play.unity.com/mg/other/webgl-6ej&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Advisor: &lt;a href=&quot;https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html&quot;&gt;Dr. Ziying Tang&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[April 13]]></title><description><![CDATA[At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status. The game now features a minimap. I…]]></description><link>https://880blog.donarudo.dev/april-13-update/</link><guid isPermaLink="false">https://880blog.donarudo.dev/april-13-update/</guid><pubDate>Thu, 13 Apr 2023 07:34:42 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;At the time of writing, I am waiting on my Apple Developer account to proceed beyond pending status.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The game now features a minimap. I spent a bit of time working through several tutorials before finding one that seemed like a good fit.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -34,13 +52,16 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Using Unity&apos;s official tutorials, I worked through building and (local) publishing the game for iOS. I needed to sign up for an Apple Developer account, then follow a few additional steps. I&apos;m current awaiting the approval of my Apple Developer account.&lt;/p&gt;
-&lt;p&gt;TODO:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;an in-game menu system to click and navigate throughout the game world, rather than using typical controls.&lt;/li&gt;
-&lt;li&gt;load content onto iPad/iPhone&lt;/li&gt;
-&lt;li&gt;add music and sound effects&lt;/li&gt;
-&lt;li&gt;a startup menu&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Project Overview]]></title><description><![CDATA[Advisor: Dr. Ziying Tang Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej This project is in part an exploration of modern game…]]></description><link>https://880blog.donarudo.dev/project-overview/</link><guid isPermaLink="false">https://880blog.donarudo.dev/project-overview/</guid><pubDate>Thu, 13 Apr 2023 07:33:42 GMT</pubDate><content:encoded>&lt;p&gt;Advisor: Dr. Ziying Tang&lt;/p&gt;
+&lt;h3&gt;TODO&lt;/h3&gt;
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; an in-game menu system to click and navigate throughout the game world, rather than using typical controls.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Apple Developer account configuration&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; load content onto iPad/iPhone&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; add music and sound effects&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; a startup menu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Latest WebGL Build: &lt;a href=&quot;https://play.unity.com/mg/other/webgl-6ej&quot;&gt;https://play.unity.com/mg/other/webgl-6ej&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Advisor: &lt;a href=&quot;https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html&quot;&gt;Dr. Ziying Tang&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Project Overview]]></title><description><![CDATA[Advisor: Dr. Ziying Tang Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej This project is in part an exploration of modern game…]]></description><link>https://880blog.donarudo.dev/project-overview/</link><guid isPermaLink="false">https://880blog.donarudo.dev/project-overview/</guid><pubDate>Thu, 13 Apr 2023 07:33:42 GMT</pubDate><content:encoded>&lt;p&gt;Advisor: &lt;a href=&quot;https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html&quot;&gt;Dr. Ziying Tang&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Latest WebGL Build: &lt;a href=&quot;https://play.unity.com/mg/other/webgl-6ej&quot;&gt;https://play.unity.com/mg/other/webgl-6ej&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This project is in part an exploration of modern game development tools and techniques, and part a prototype for a game that aims to introduce autistic children to medical procedures prior to experiencing the procedure.&lt;/p&gt;
 &lt;p&gt;This blog is a bit of a late start at centrally documenting this project. My prior game development experience was as an undergraduate student in University of Baltimore&apos;s Simulation and Digital Entertainment (now Simulation and Game Design) program. The majority of my game dev experience was using Unreal 2.5, Macromedia Flash and modding Neverwinter Nights. This project is built using Unity.&lt;/p&gt;
@@ -156,4 +177,6 @@ Grid Alignment&lt;/p&gt;
 &lt;p&gt;The next big hurdle was to add a player.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The sleep has come for me; I&apos;ll add more info soon.&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Assets&lt;/h2&gt;
-&lt;p&gt;I knew of the Unity Asset Store due to my work as a lab manager who supports University of Baltimore&apos;s game design program. Aside from needing to preload a package on all systems some years ago, this was my first interaction with the asset store. I was suprised by the range of content that was freely available, as well as the cost of premium content.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;I knew of the Unity Asset Store due to my work as a lab manager who supports University of Baltimore&apos;s game design program. Aside from needing to preload a package on all systems some years ago, this was my first interaction with the asset store. I was suprised by the range of content that was freely available, as well as the cost of premium content.&lt;/p&gt;
+&lt;p&gt;Latest WebGL Build: &lt;a href=&quot;https://play.unity.com/mg/other/webgl-6ej&quot;&gt;https://play.unity.com/mg/other/webgl-6ej&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Advisor: &lt;a href=&quot;https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html&quot;&gt;Dr. Ziying Tang&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
