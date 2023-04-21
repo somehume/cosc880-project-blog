@@ -39,3 +39,10 @@ _The sleep has come for me; I'll add more info soon._
 
 ## Assets
 I knew of the Unity Asset Store due to my work as a lab manager who supports University of Baltimore's game design program. Aside from needing to preload a package on all systems some years ago, this was my first interaction with the asset store. I was suprised by the range of content that was freely available, as well as the cost of premium content.
+
+
+
+
+Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej
+
+Advisor: [Dr. Ziying Tang](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html)

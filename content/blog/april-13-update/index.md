@@ -12,8 +12,15 @@ The game now features a minimap. I spent a bit of time working through several t
 
 Using Unity's official tutorials, I worked through building and (local) publishing the game for iOS. I needed to sign up for an Apple Developer account, then follow a few additional steps. I'm current awaiting the approval of my Apple Developer account.
 
-TODO: 
-- an in-game menu system to click and navigate throughout the game world, rather than using typical controls.
-- load content onto iPad/iPhone
-- add music and sound effects
-- a startup menu
+### TODO 
+- [ ] an in-game menu system to click and navigate throughout the game world, rather than using typical controls.
+- [ ] Apple Developer account configuration
+- [ ] load content onto iPad/iPhone
+- [ ] add music and sound effects
+- [ ] a startup menu
+
+
+Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej
+
+Advisor: [Dr. Ziying Tang](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html)
+

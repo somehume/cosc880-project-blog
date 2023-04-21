@@ -4,7 +4,7 @@ date: "2023-04-13T07:33:42.186Z"
 description: "An overview of my 880 project goals."
 ---
 
-Advisor: Dr. Ziying Tang
+Advisor: [Dr. Ziying Tang](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html)
 
 Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej
 
