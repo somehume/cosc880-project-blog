@@ -28,7 +28,6 @@ Following the instructions on Unity Learn, I ran into an issue with the Target S
 - [ ] add music and sound effects
 - [ ] a startup menu
 
-
 Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej
 
 Advisor: [Dr. Ziying Tang](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html)
