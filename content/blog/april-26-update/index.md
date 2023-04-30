@@ -19,3 +19,8 @@ I expected that I'd be further along by now; this has been humbling. Perhaps tea
 - [ ] deploy game to Android tablet
 - [ ] add music and sound effects
 - [ ] a startup menu
+
+
+Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej
+
+Advisor: [Dr. Ziying Tang](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html)

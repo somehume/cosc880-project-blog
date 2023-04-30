@@ -21,9 +21,19 @@ I'm now looking into the interaction goals.
 
 ### TODO 
 - [ ] an in-game menu system to click and navigate throughout the game world, rather than using typical controls.
+- [ ] add interaction between player and game objects
 - [X] Apple Developer account configuration
 - [ ] Add a ceiling and lighting
 - [ ] deploy game to iPad/iPhone
 - [ ] deploy game to Android tablet
 - [ ] add music and sound effects
 - [ ] a startup menu
+- [ ] add source documentation
+- [ ] prepare slides
+- [ ] request paper
+
+
+
+Latest WebGL Build: https://play.unity.com/mg/other/webgl-6ej
+
+Advisor: [Dr. Ziying Tang](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/ztang.html)
